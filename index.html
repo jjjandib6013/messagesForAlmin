@@ -18,8 +18,7 @@
 </head>
 <body>
 
-  <!-- Audio Element -->
-  <audio id="background-audio" class="song" loop>
+  <audio id="background-audio" class="song" autoplay loop>
     <source src="/lib/sza.mp3" type="audio/mp3">
     Your browser isn't invited for super fun audio time.
   </audio>
@@ -68,16 +67,6 @@
   </footer>
 
   <script src="index.js"></script>
-
-  <script>
-    // JavaScript to play the audio when the "Click Me" button is clicked
-    document.getElementById('gen-text').addEventListener('click', function() {
-      var audio = document.getElementById('background-audio');
-      audio.play().catch(function(error) {
-        console.log("Error playing audio: " + error);
-      });
-    });
-  </script>
 
 </body>
 </html>
