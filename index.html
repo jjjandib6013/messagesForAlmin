@@ -68,5 +68,14 @@
 
   <script src="index.js"></script>
 
+  <script>
+    document.getElementById('gen-text').addEventListener('click', function() {
+      var audio = document.getElementById('background-audio');
+      audio.play().catch(function(error) {
+        console.log("Error playing audio: " + error);
+      });
+    });
+  </script>
+
 </body>
 </html>
