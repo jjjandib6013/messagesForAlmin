@@ -10,7 +10,6 @@ genText.addEventListener("click", function() {
     "Every challenge you face is making you stronger.",
     "You’re capable of more than you realize.",
     "The future is bright, and it’s yours to shape.",
-    "Your effort today will lead to success tomorrow.",
     "Even in the storm, good days are coming.",
     "Like the sun after the rain, brighter days await.",
     "Hold on, the clouds will part, and you'll find peace.",
@@ -26,7 +25,8 @@ genText.addEventListener("click", function() {
     "Keep going, the best is yet to come.",
     "You are not alone in this journey.",
     "Your dreams are closer than they seem.",
-    "You are enough, just as you are."
+    "You are enough, just as you are.",
+    "Your effort today will lead to success tomorrow."
   ]
   const textEl = document.querySelector(".textMessage")
   textEl.textContent = messages[Math.floor( Math.random()*messages.length )]
